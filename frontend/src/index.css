@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&display=swap');
+/* Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  display: none;
+}
 
+/* Firefox */
+html {
+  scrollbar-width: none;
+}
+
+/* Internet Explorer/old Edge */
+body {
+  -ms-overflow-style: none;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
