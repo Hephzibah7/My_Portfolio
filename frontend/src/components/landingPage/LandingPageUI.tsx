@@ -52,7 +52,7 @@ function LandingPageUI() {
     <div className='z-30 absolute w-full h-screen justify-center p-20 flex flex-col overflow-hidden'>
        <div className='mt-10'>
          <div className='flex justify-between mt-[150px] ml-20  text-white'>
-          <h1 className='w-1/3 text-sm uppercase tracking-wide animate-fade-right animate-duration-[2000ms] animate-delay-[400ms] animate-ease-in-out animate-normal'>Computer Science Engineering graduate  hands-on experience in backend and
+          <h1 className='w-1/3 text-sm uppercase tracking-wide font-bold animate-fade-right animate-duration-[2000ms] animate-delay-[400ms] animate-ease-in-out animate-normal'>Computer Science Engineering graduate  hands-on experience in backend and
 full-stack development through internships and personal projects. </h1>
           
         </div>
