@@ -2,6 +2,8 @@ import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import NavbarUI from "../Navbar/NavbarUI";
+import EducationSectionUI from '../EducationSection/EducationSectionUI';
+import ProjectUI from '../ProjectSection/ProjectUI';
 
 function LandingPageUI() {
   return (
@@ -97,9 +99,12 @@ function LandingPageUI() {
         </div>
       </div>
     </div>
-    <div className='mt-10'>
-        hello my name is
-      </div>
+    <div>
+      <EducationSectionUI/>
+    </div>
+    <div>
+      <ProjectUI/>
+    </div>
     </div>
   )
 }
