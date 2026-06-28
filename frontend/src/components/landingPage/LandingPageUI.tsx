@@ -5,6 +5,7 @@ import NavbarUI from "../Navbar/NavbarUI";
 import EducationSectionUI from '../EducationSection/EducationSectionUI';
 import ProjectUI from '../ProjectSection/ProjectUI';
 import CPUI from '../CPSection/CPUI';
+import Message from '../Message/Message';
 
 function LandingPageUI() {
   return (
@@ -108,6 +109,9 @@ function LandingPageUI() {
     </div>
     <div>
       <CPUI/>
+    </div>
+    <div>
+      <Message/>
     </div>
     </div>
   )
