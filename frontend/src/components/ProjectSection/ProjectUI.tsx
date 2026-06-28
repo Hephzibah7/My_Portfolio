@@ -10,7 +10,7 @@ function ProjectUI() {
                     whileInView={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.8 }}
                     className='ml-30 mr-20 pl-20'>
-                    <h1 className='uppercase text-[50px] font-bold tracking-wide '>My Projects</h1>
+                    <h1 className='uppercase text-[50px] font-bold tracking-wide '>Projects</h1>
                 </motion.div>
                 <div className='flex flex-col gap-10 w-full '>
                     <div className=' mt-10 w-full '>

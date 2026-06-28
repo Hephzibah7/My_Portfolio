@@ -4,6 +4,7 @@ import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import NavbarUI from "../Navbar/NavbarUI";
 import EducationSectionUI from '../EducationSection/EducationSectionUI';
 import ProjectUI from '../ProjectSection/ProjectUI';
+import CPUI from '../CPSection/CPUI';
 
 function LandingPageUI() {
   return (
@@ -104,6 +105,9 @@ function LandingPageUI() {
     </div>
     <div>
       <ProjectUI/>
+    </div>
+    <div>
+      <CPUI/>
     </div>
     </div>
   )
