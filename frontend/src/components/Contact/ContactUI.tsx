@@ -37,10 +37,10 @@ function ContactUI() {
                  <div className=''>
                     <h1 className='text-sm mb-2'>Navigation</h1>
                     <div className='flex flex-col gap-1 text-black'>
-                    <h1>LinkedIn <span><FontAwesomeIcon icon={faArrowUpRightFromSquare} className='text-black' /></span></h1>
-                    <h1>GitHub <span><FontAwesomeIcon icon={faArrowUpRightFromSquare} className='text-black' /></span></h1>
-                    <h1>LeetCode <span><FontAwesomeIcon icon={faArrowUpRightFromSquare} className='text-black' /></span></h1>
-                    <h1>Medium <span><FontAwesomeIcon icon={faArrowUpRightFromSquare} className='text-black' /></span></h1>
+                    <a href="https://www.linkedin.com/in/hephzibahranjan/"><h1>LinkedIn <span><FontAwesomeIcon icon={faArrowUpRightFromSquare} className='text-orange-600' /></span></h1></a>
+                    <a href="https://github.com/Hephzibah7"><h1>GitHub <span><FontAwesomeIcon icon={faArrowUpRightFromSquare} className='text-orange-600' /></span></h1></a>
+                    <a href="https://leetcode.com/u/Hermione7"><h1>LeetCode <span><FontAwesomeIcon icon={faArrowUpRightFromSquare} className='text-orange-600' /></span></h1></a>
+                    <a href="https://medium.com/@hephzibahranjan"><h1>Medium <span><FontAwesomeIcon icon={faArrowUpRightFromSquare} className='text-orange-600' /></span></h1></a>
                 </div>
                 
                 </div>
