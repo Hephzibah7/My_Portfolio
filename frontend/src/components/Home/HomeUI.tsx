@@ -5,12 +5,12 @@ import NavbarUI from "../Navbar/NavbarUI";
 import EducationSectionUI from '../EducationSection/EducationSectionUI';
 import ProjectUI from '../ProjectSection/ProjectUI';
 import CPUI from '../CPSection/CPUI';
-import Message from '../Message/Message';
-import Contact from '../Contact/Contact';
+import Message from '../Message/MessageUI';
+import Contact from '../Contact/ContactUI';
 import { motion } from "framer-motion";
 
 
-function LandingPageUI() {
+function HomeUI() {
   return (
     <div className=''>
       <div className='relative  min-h-screen'>
@@ -134,23 +134,9 @@ function LandingPageUI() {
           </div>
         </div>
       </div>
-      <div>
-        <EducationSectionUI />
-      </div>
-      <div>
-        <ProjectUI />
-      </div>
-      <div>
-        <CPUI />
-      </div>
-      <div>
-        <Message />
-      </div>
-      <div>
-        <Contact />
-      </div>
+      
     </div>
   )
 }
 
-export default LandingPageUI;
+export default HomeUI;

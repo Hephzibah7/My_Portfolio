@@ -18,7 +18,7 @@ import {
 } from "react-icons/si";
 function EducationSectionUI() {
     return (
-        <div className='w-full h-contain bg-gray-200 p-20 '>
+        <div className='w-screen h-contain bg-gray-200 p-20 overflow-x-hidden '>
             <div className='p-20 '>
                 <div className='ml-20 mr-20 uppercase   flex justify-between'>
                     <motion.div

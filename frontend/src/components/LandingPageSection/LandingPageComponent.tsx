@@ -1,10 +1,11 @@
 import React from 'react'
 import LandingPageUI from './LandingPageUI'
-import NavbarUI from '../Navbar/NavbarUI'
+import HomeUI from '../Home/HomeUI'
+
 function LandingPageComponent() {
   return (
     <div>
-     <LandingPageUI/>
+      <LandingPageUI/>
     </div>
   )
 }

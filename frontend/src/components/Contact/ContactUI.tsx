@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 
-function Contact() {
+function ContactUI() {
   return (
      <div className='w-full h-contain   bg-gray-200 pt-20 text-gray-400'>
      <motion.div
@@ -65,4 +65,4 @@ function Contact() {
   )
 }
 
-export default Contact
+export default ContactUI;

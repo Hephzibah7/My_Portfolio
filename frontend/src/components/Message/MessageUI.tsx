@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from "framer-motion";
-function Message() {
+function MessageUI() {
   return (
     <div className='w-full h-contain pl-20 pr-20 text-white bg-gray-200'>
       <div className='ml-20 mr-20'>
@@ -52,4 +52,4 @@ function Message() {
   )
 }
 
-export default Message
+export default MessageUI;
