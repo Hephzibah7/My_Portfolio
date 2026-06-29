@@ -55,13 +55,14 @@ function HomeUI() {
             </table>
           </div>
         </div>
-        <div className='z-30 absolute   lg:w-full lg:h-screen flex justify-center '>
-          <motion.img
+        <div className='z-30 absolute lg:w-full lg:h-screen flex justify-center '>
+            <motion.img
             initial={{ opacity: 0, y: 80 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false }}
-            className='object-cover mt-20 ' src="src/assets/CA.png" />
+            className=' w-[800px] h-[1000px] absolute bottom-0 object-cover' src="src/assets/me-Photoroom.png" />
+          
         </div>
         <div className='z-20 absolute object-top w-full flex justify-center '>
           <motion.div
@@ -94,7 +95,7 @@ function HomeUI() {
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8 }}
                 className='mt-10 '>
-                <h2 className='animate-fade-up animate-duration-[2000ms]'>@2026</h2>
+                <h2 className=''>@2026</h2>
                 <h1 className='uppercase w-full text-9xl tracking-wide  font-extrabold '>hephzibah</h1>
               </motion.div>
               <motion.div
@@ -102,9 +103,9 @@ function HomeUI() {
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8 }}
                 className='mt-20 z-50 tracking-wide'>
-                <div className='bg-black p-3 grid grid-cols-3 rounded-md  text-gray-400 '>
-                  <div className='col-span-1'>
-                    <img className='object-cover w-20 h-20 rounded' src="src/assets/peak.jpg" />
+                <div className='bg-black p-1 grid grid-cols-3 p-2 rounded-md  text-gray-400 '>
+                  <div className='col-span-1 '>
+                    <img className='object-cover w-20 h-20  rounded' src="src/assets/pic8.jpeg" />
                   </div>
                   <div className='col-span-2'>
                     <div className='text-sm'>
