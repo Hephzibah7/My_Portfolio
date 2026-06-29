@@ -107,7 +107,7 @@ function EducationSectionUI() {
                             <div className='mb-10'>
                                 <h1 className='uppercase font-bold text-2xl tracking-wide'>skills</h1>
                             </div>
-                            <div className='flex flex-wrap gap-1 text-sm text-gray-400'>
+                            <div className='flex flex-wrap gap-5 text-sm text-gray-400'>
                                 <div className='flex gap-5'>
                                     <div className='text-orange-600'>|</div>
                                     <div>
@@ -118,9 +118,7 @@ function EducationSectionUI() {
                                             <div className='text-xs font-bold'>
                                                 JavaScript
                                             </div>
-                                            <div className='text-xs'>
-                                                Strong proficiency in Javascript
-                                            </div>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -133,11 +131,9 @@ function EducationSectionUI() {
                                                 <SiTypescript className='text-white text-xl' />
                                             </div>
                                             <div className='text-xs font-bold'>
-                                                JavaScript
+                                                TypeScript
                                             </div>
-                                            <div className='text-xs'>
-                                                Strong proficiency in Javascript
-                                            </div>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -152,9 +148,7 @@ function EducationSectionUI() {
                                             <div className='text-xs font-bold'>
                                                 React.js
                                             </div>
-                                            <div className='text-xs'>
-                                                Strong proficiency in Javascript
-                                            </div>
+                                           
                                         </div>
                                     </div>
                                 </div>
@@ -169,9 +163,7 @@ function EducationSectionUI() {
                                             <div className='text-xs font-bold'>
                                                 MongoDB
                                             </div>
-                                            <div className='text-xs'>
-                                                Strong proficiency in Javascript
-                                            </div>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -186,9 +178,7 @@ function EducationSectionUI() {
                                             <div className='text-xs font-bold'>
                                                 PostgreSQL
                                             </div>
-                                            <div className='text-xs'>
-                                                Strong proficiency in Javascript
-                                            </div>
+                                           
                                         </div>
                                     </div>
                                 </div>
@@ -203,9 +193,7 @@ function EducationSectionUI() {
                                             <div className='text-xs font-bold'>
                                                 Node.js
                                             </div>
-                                            <div className='text-xs'>
-                                                Strong proficiency in Javascript
-                                            </div>
+                                           
                                         </div>
                                     </div>
                                 </div>
@@ -219,9 +207,7 @@ function EducationSectionUI() {
                                             <div className='text-xs font-bold'>
                                                 MySQL
                                             </div>
-                                            <div className='text-xs'>
-                                                Strong proficiency in Javascript
-                                            </div>
+                                           
                                         </div>
                                     </div>
                                 </div>
@@ -235,9 +221,63 @@ function EducationSectionUI() {
                                             <div className='text-xs font-bold'>
                                                 HTML
                                             </div>
-                                            <div className='text-xs'>
-                                                Strong proficiency in Javascript
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className='flex gap-5'>
+                                    <div className='text-orange-600'>|</div>
+                                    <div>
+                                        <div className='flex flex-col gap-1'>
+                                            <div>
+                                                <SiDocker className='text-white text-xl' />
                                             </div>
+                                            <div className='text-xs font-bold'>
+                                                Docker
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className='flex gap-5'>
+                                    <div className='text-orange-600'>|</div>
+                                    <div>
+                                        <div className='flex flex-col gap-1'>
+                                            <div>
+                                                <SiGithub className='text-white text-xl' />
+                                            </div>
+                                            <div className='text-xs font-bold'>
+                                                GitHub
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className='flex gap-5'>
+                                    <div className='text-orange-600'>|</div>
+                                    <div>
+                                        <div className='flex flex-col gap-1'>
+                                            <div>
+                                                <SiGit className='text-white text-xl' />
+                                            </div>
+                                            <div className='text-xs font-bold'>
+                                                Git
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className='flex gap-5'>
+                                    <div className='text-orange-600'>|</div>
+                                    <div>
+                                        <div className='flex flex-col gap-1'>
+                                            <div>
+                                                <SiTailwindcss className='text-white text-xl' />
+                                            </div>
+                                            <div className='text-xs font-bold'>
+                                                Tailwind CSS
+                                            </div>
+                                           
                                         </div>
                                     </div>
                                 </div>
