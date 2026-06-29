@@ -58,7 +58,7 @@ function Contact() {
       </div>
       </div>
       <div className='bg-black flex justify-center p-1'>
-        <div className='text-white text-xs'>Designed with love, all right reserved for Hephzibah Ranjan</div>
+        <div className='text-white text-xs'>Designed with love, all rights reserved for Hephzibah Ranjan</div>
       </div>
      </motion.div>
     </div>

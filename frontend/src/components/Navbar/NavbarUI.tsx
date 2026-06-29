@@ -10,10 +10,7 @@ function NavbarUI() {
                     Home
                 </div>
                 <div className='cursor-pointer'>
-                    Education
-                </div>
-                <div className='cursor-pointer'>
-                    Skills
+                    Profile
                 </div>
                 <div className='cursor-pointer'>
                     Projects
