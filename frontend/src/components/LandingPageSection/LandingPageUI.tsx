@@ -10,23 +10,23 @@ import ContactComponent from '../Contact/ContactComponent'
 function LandingPageUI() {
   return (
     <div>
-        <div>
-            <HomeComponent/>
-        </div>
-      <div>
-        <EducationSectionComponent/>
+      <div id="home">
+        <HomeComponent />
       </div>
-      <div>
-        <ProjectComponent/>
+      <div id="profile">
+        <EducationSectionComponent />
       </div>
-      <div>
-        <CPComponent/>
+      <div id="project">
+        <ProjectComponent />
       </div>
-      <div>
-        <MessageComponent/>
+      <div id="coding">
+        <CPComponent />
       </div>
-      <div>
-        <ContactComponent/>
+      <div id="message">
+        <MessageComponent />
+      </div>
+      <div id="contact">
+        <ContactComponent />
       </div>
     </div>
   )

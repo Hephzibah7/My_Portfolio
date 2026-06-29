@@ -7,19 +7,22 @@ function NavbarUI() {
             <div className='text-2xl'>Portfolio</div>
             <div className='flex justify-between gap-10 underline'>
                 <div className='cursor-pointer'>
-                    Home
+                    <a href='#home'>Home</a>
                 </div>
                 <div className='cursor-pointer'>
-                    Profile
+                    <a href='#profile'>Profile</a>
                 </div>
                 <div className='cursor-pointer'>
-                    Projects
+                   <a href='#project'> Projects</a>
                 </div>
                 <div className='cursor-pointer'>
-                    Coding Profile
+                    <a href='#coding'>Coding Profile</a>
                 </div>
                 <div className='cursor-pointer'>
-                    Contact Me
+                    <a href='#message'>Message</a>
+                </div>
+                <div className='cursor-pointer'>
+                    <a href='#contact'>Contact Me</a>
                 </div>
             </div>
            
