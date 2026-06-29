@@ -1,11 +1,10 @@
-import React from 'react'
 import { motion } from "framer-motion";
 import {
     SiJavascript,
     SiTypescript,
     SiReact,
     SiNodedotjs,
-    SiExpress,
+   
     SiMongodb,
     SiMysql,
     SiPostgresql,
@@ -14,7 +13,7 @@ import {
     SiDocker,
     SiTailwindcss,
     SiHtml5,
-    SiC,
+    
 } from "react-icons/si";
 function EducationSectionUI() {
     return (

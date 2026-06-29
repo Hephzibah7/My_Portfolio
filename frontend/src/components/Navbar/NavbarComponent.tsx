@@ -1,4 +1,4 @@
-import React from 'react'
+
 import NavbarUI from './NavbarUI'
 
 function NavbarComponent() {

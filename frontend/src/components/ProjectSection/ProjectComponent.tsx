@@ -1,4 +1,4 @@
-import React from 'react'
+
 import ProjectUI from './ProjectUI'
 
 function ProjectComponent() {

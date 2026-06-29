@@ -1,4 +1,3 @@
-import React from 'react'
 import EducationSectionUI from './EducationSectionUI'
 
 function EducationSectionComponent() {

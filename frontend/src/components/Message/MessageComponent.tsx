@@ -1,4 +1,4 @@
-import React from 'react'
+
 import MessageUI from './MessageUI'
 
 function MessageComponent() {
