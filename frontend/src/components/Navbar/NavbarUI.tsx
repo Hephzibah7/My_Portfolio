@@ -18,9 +18,9 @@ function NavbarUI() {
                 <div className='cursor-pointer'>
                     <a href='#coding'>Coding Profile</a>
                 </div>
-                <div className='cursor-pointer'>
+                {/* <div className='cursor-pointer'>
                     <a href='#message'>Message</a>
-                </div>
+                </div> */}
                 <div className='cursor-pointer'>
                     <a href='#contact'>Contact Me</a>
                 </div>

@@ -22,9 +22,9 @@ function LandingPageUI() {
       <div id="coding">
         <CPComponent />
       </div>
-      <div id="message">
+      {/* <div id="message">
         <MessageComponent />
-      </div>
+      </div> */}
       <div id="contact">
         <ContactComponent />
       </div>

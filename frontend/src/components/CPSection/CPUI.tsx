@@ -41,26 +41,26 @@ function CPUI() {
                     <div className='text-orange-600'>|</div>
                     <div className='font-bold  text-xs m-2 tracking-wide p-1 bg-gray-300 rounded uppercase w-fit'>2+ Years of consistent hardwork</div>
                 </div>
-                <div className="grid grid-flow-col grid-rows-3 gap-4 w-full mt-10">
+                <div className="grid grid-flow-col grid-rows-2 gap-4 w-full mt-10">
                     <motion.div
                         initial={{ opacity: 0, x: 100 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.8 }}
-                        className="row-span-3 ...">
+                        className="row-span-2">
                         <img className="rounded" src="src/assets/pic4.png" />
                     </motion.div>
                     <motion.div
                         initial={{ opacity: 0, x: -100 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.8 }}
-                        className="col-span-2 ...">
+                        className="row-start-1 col-span-2">
                         <img className="rounded" src="src/assets/pic5.png" />
                     </motion.div>
                     <motion.div
                         initial={{ opacity: 0, x: -100 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.8 }}
-                        className="col-span-2 row-span-2 ...">
+                        className="row-start-2 col-span-2 row-span-2">
                         <img className="rounded" src="src/assets/pic6.png" />
                     </motion.div>
                 </div>
