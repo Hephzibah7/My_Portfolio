@@ -1,13 +1,9 @@
 import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
-import NavbarUI from "../Navbar/NavbarUI";
-import EducationSectionUI from '../EducationSection/EducationSectionUI';
-import ProjectUI from '../ProjectSection/ProjectUI';
-import CPUI from '../CPSection/CPUI';
-import Message from '../Message/MessageUI';
-import Contact from '../Contact/ContactUI';
+
 import { motion } from "framer-motion";
+import NavbarComponent from '../Navbar/NavbarComponent';
 
 
 function HomeUI() {
@@ -19,7 +15,7 @@ function HomeUI() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           className='text-white/100 w-full bg-transparent z-40 absolute'>
-          <NavbarUI />
+          <NavbarComponent/>
         </motion.div>
         <div className=' z-10 absolute bg-orange-600 shadow-[inset_0_0_15px_5px_rgba(0,0,0,0.2)] w-full h-screen overflow-hidden select-none '>
           <div className='w-full h-full'>
