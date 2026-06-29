@@ -19,16 +19,22 @@ function ProjectUI() {
                             <div className='col-span-1'>001</div>
                             <div className='col-span-2 flex flex-col gap-4'>
                                 <div className='uppercase font-bold text-2xl tracking-wide'>
-                                    online art marketplace
+                                    Online Art MarketPlace (ArtSpace)
                                 </div>
-                                <div className='text-sm text-gray-400'>Engineered a modular architecture with Controller-Service-Repository layers, centralizing validation and error handling to
-                                    boost code extensibility and reduce debugging time by 15%.– Built inventory reservation and order management systems </div>
+                                <div className='text-sm text-gray-400'>ArtSpace is a scalable distributed e-commerce platform where:
+	<br></br>• Artists can upload and manage artwork
+	<br></br>• Users can search and purchase artwork
+	<br></br>• System handles concurrent checkout safely
+	<br></br>• Search remains highly available and fast
+	<br></br>• Services scale independently
+	<br></br>• Payments and inventory remain strongly consistent
+ </div>
                                 <div className='flex flex-wrap font-bold gap-4'>
                                     <div className=' bg-gray-300 w-fit p-1 rounded'>React.js</div>
-                                    <div className=' bg-gray-300 w-fit p-1 rounded'>React.js</div>
-                                    <div className=' bg-gray-300 w-fit p-1 rounded'>React.js</div>
-                                    <div className=' bg-gray-300 w-fit p-1 rounded'>React.js</div>
-                                    <div className=' bg-gray-300 w-fit p-1 rounded'>React.js</div>
+                                    <div className=' bg-gray-300 w-fit p-1 rounded'>Node.js.js</div>
+                                    <div className=' bg-gray-300 w-fit p-1 rounded'>MongoDB.js</div>
+                                    <div className=' bg-gray-300 w-fit p-1 rounded'>PostgreSQL</div>
+                                    <div className=' bg-gray-300 w-fit p-1 rounded'>TypeScript</div>
                                 </div>
 
                             </div>
@@ -38,7 +44,7 @@ function ProjectUI() {
                                     whileInView={{ opacity: 1, scale: 1 }}
                                     transition={{ duration: 0.8 }}
                                 >
-                                    <img className="p-3 rounded" src="https://s3-figma-hubfile-images-production.figma.com/hub/file/carousel/img/8730f8b4204608f801497ad2a980b4aecdc43b94" />
+                                    <img className=" rounded object-contain" src="src/assets/pic9.png" />
 
                                 </motion.div>
                             </div>
@@ -47,20 +53,20 @@ function ProjectUI() {
 
                     <div className=' mt-10 w-full '>
                         <hr className="border-t-3 border-red-500 " />
-                        <div className='flex grid grid-cols-4 w-full mt-10'>
+                        <div className=' grid grid-cols-4 w-full mt-10'>
                             <div className='col-span-1'>001</div>
                             <div className='col-span-2 flex flex-col gap-4'>
                                 <div className='uppercase font-bold text-2xl tracking-wide'>
-                                    online art marketplace
+                                    Finance DashBoard System
                                 </div>
-                                <div className='text-sm text-gray-400'>Engineered a modular architecture with Controller-Service-Repository layers, centralizing validation and error handling to
-                                    boost code extensibility and reduce debugging time by 15%.– Built inventory reservation and order management systems </div>
+                                <div className='text-sm text-gray-400'>Developed a secure backend system for financial record management with authentication, role-based authorization, user
+administration, and analytics dashboards. </div>
                                 <div className='flex flex-wrap font-bold gap-4'>
-                                    <div className=' bg-gray-300 w-fit p-1 rounded'>React.js</div>
-                                    <div className=' bg-gray-300 w-fit p-1 rounded'>React.js</div>
-                                    <div className=' bg-gray-300 w-fit p-1 rounded'>React.js</div>
-                                    <div className=' bg-gray-300 w-fit p-1 rounded'>React.js</div>
-                                    <div className=' bg-gray-300 w-fit p-1 rounded'>React.js</div>
+                                    <div className=' bg-gray-300 w-fit p-1 rounded'>TypeScript</div>
+                                    <div className=' bg-gray-300 w-fit p-1 rounded'>Node.js</div>
+                                    <div className=' bg-gray-300 w-fit p-1 rounded'>Express.js</div>
+                                    <div className=' bg-gray-300 w-fit p-1 rounded'>MongoDB</div>
+                                    <div className=' bg-gray-300 w-fit p-1 rounded'>Redis</div>
                                 </div>
 
                             </div>
@@ -70,7 +76,7 @@ function ProjectUI() {
                                     whileInView={{ opacity: 1, scale: 1 }}
                                     transition={{ duration: 0.8 }}
                                 >
-                                    <img className="p-3 rounded" src="https://s3-figma-hubfile-images-production.figma.com/hub/file/carousel/img/8730f8b4204608f801497ad2a980b4aecdc43b94" />
+                                    <img className="p-3 rounded object-cover " src="src/assets/pic10.png" />
 
                                 </motion.div>
                             </div>
@@ -79,20 +85,19 @@ function ProjectUI() {
 
                     <div className=' mt-10 w-full '>
                         <hr className="border-t-3 border-red-500 " />
-                        <div className='flex grid grid-cols-4 w-full mt-10'>
+                        <div className=' grid grid-cols-4 w-full mt-10'>
                             <div className='col-span-1'>001</div>
                             <div className='col-span-2 flex flex-col gap-4'>
                                 <div className='uppercase font-bold text-2xl tracking-wide'>
-                                    online art marketplace
+                                    Personal Finance tracker
                                 </div>
-                                <div className='text-sm text-gray-400'>Engineered a modular architecture with Controller-Service-Repository layers, centralizing validation and error handling to
-                                    boost code extensibility and reduce debugging time by 15%.– Built inventory reservation and order management systems </div>
+                                <div className='text-sm text-gray-400'>Developed a tracker that helps users to track their monthly and yearly expenditures. </div>
                                 <div className='flex flex-wrap font-bold gap-4'>
                                     <div className=' bg-gray-300 w-fit p-1 rounded'>React.js</div>
-                                    <div className=' bg-gray-300 w-fit p-1 rounded'>React.js</div>
-                                    <div className=' bg-gray-300 w-fit p-1 rounded'>React.js</div>
-                                    <div className=' bg-gray-300 w-fit p-1 rounded'>React.js</div>
-                                    <div className=' bg-gray-300 w-fit p-1 rounded'>React.js</div>
+                                    <div className=' bg-gray-300 w-fit p-1 rounded'>TypeScript</div>
+                                    <div className=' bg-gray-300 w-fit p-1 rounded'>Node.js</div>
+                                    <div className=' bg-gray-300 w-fit p-1 rounded'>MySQL</div>
+                                    <div className=' bg-gray-300 w-fit p-1 rounded'>Docker</div>
                                 </div>
 
                             </div>
@@ -102,8 +107,7 @@ function ProjectUI() {
                                     whileInView={{ opacity: 1, scale: 1 }}
                                     transition={{ duration: 0.8 }}
                                 >
-                                    <img className="p-3 rounded" src="https://s3-figma-hubfile-images-production.figma.com/hub/file/carousel/img/8730f8b4204608f801497ad2a980b4aecdc43b94" />
-
+                                    <img className="p-3 rounded" src="src/assets/pic11.png"/>
                                 </motion.div>
                             </div>
                         </div>
