@@ -23,17 +23,17 @@ function CPUI() {
                         transition={{ duration: 0.8 }}
                         className="row-span-2 row-start-2">
 
-                        <img className="rounded" src="src/assets/pic2.png" />
+                        <img className="rounded" src="/pic2.png" />
                     </motion.div>
                     <div className="row-start-1 row-end-4">
-                        <img className="rounded" src="src/assets/pic1.png" />
+                        <img className="rounded" src="/pic1.png" />
                     </div>
                     <motion.div
                         initial={{ opacity: 0, x: -100 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.8 }}
                         className="row-start-1 row-end-4">
-                        <img className="rounded" src="src/assets/pic3.png" />
+                        <img className="rounded" src="/pic3.png" />
                     </motion.div>
                 </div>
                 <div className='flex gap-5 mt-10'>
@@ -46,21 +46,21 @@ function CPUI() {
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.8 }}
                         className="row-span-2">
-                        <img className="rounded" src="src/assets/pic4.png" />
+                        <img className="rounded" src="/pic4.png" />
                     </motion.div>
                     <motion.div
                         initial={{ opacity: 0, x: -100 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.8 }}
                         className="row-start-1 col-span-2">
-                        <img className="rounded" src="src/assets/pic5.png" />
+                        <img className="rounded" src="/pic5.png" />
                     </motion.div>
                     <motion.div
                         initial={{ opacity: 0, x: -100 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.8 }}
                         className="row-start-2 col-span-2 row-span-2">
-                        <img className="rounded" src="src/assets/pic6.png" />
+                        <img className="rounded" src="/pic6.png" />
                     </motion.div>
                 </div>
             </div>

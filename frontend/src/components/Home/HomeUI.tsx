@@ -61,7 +61,7 @@ function HomeUI() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false }}
-            className=' w-[800px] h-[1000px] absolute bottom-0 object-cover' src="src/assets/me-Photoroom.png" />
+            className=' w-[800px] h-[1000px] absolute bottom-0 object-cover' src="/me-Photoroom.png" />
           
         </div>
         <div className='z-20 absolute object-top w-full flex justify-center '>
@@ -103,9 +103,9 @@ function HomeUI() {
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8 }}
                 className='mt-20 z-50 tracking-wide'>
-                <div className='bg-black p-1 grid grid-cols-3 p-2 rounded-md  text-gray-400 '>
+                <div className='bg-black  grid grid-cols-3 p-2 rounded-md  text-gray-400 '>
                   <div className='col-span-1 '>
-                    <img className='object-cover w-20 h-20  rounded' src="src/assets/pic8.jpeg" />
+                    <img className='object-cover w-20 h-20  rounded' src="/pic8.jpeg" />
                   </div>
                   <div className='col-span-2'>
                     <div className='text-sm'>

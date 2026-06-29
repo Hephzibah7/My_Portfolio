@@ -44,7 +44,7 @@ function ProjectUI() {
                                     whileInView={{ opacity: 1, scale: 1 }}
                                     transition={{ duration: 0.8 }}
                                 >
-                                    <img className=" rounded object-contain" src="src/assets/pic9.png" />
+                                    <img className=" rounded object-contain" src="/pic9.png" />
 
                                 </motion.div>
                             </div>
@@ -76,7 +76,7 @@ administration, and analytics dashboards. </div>
                                     whileInView={{ opacity: 1, scale: 1 }}
                                     transition={{ duration: 0.8 }}
                                 >
-                                    <img className="p-3 rounded object-cover " src="src/assets/pic10.png" />
+                                    <img className="p-3 rounded object-cover " src="/pic10.png" />
 
                                 </motion.div>
                             </div>
@@ -107,7 +107,7 @@ administration, and analytics dashboards. </div>
                                     whileInView={{ opacity: 1, scale: 1 }}
                                     transition={{ duration: 0.8 }}
                                 >
-                                    <img className="p-3 rounded" src="src/assets/pic11.png"/>
+                                    <img className="p-3 rounded" src="/pic11.png"/>
                                 </motion.div>
                             </div>
                         </div>
