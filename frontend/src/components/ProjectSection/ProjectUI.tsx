@@ -56,7 +56,7 @@ function ProjectUI() {
                         <div className=' grid grid-cols-4 w-full mt-10'>
                             <div className='col-span-1'>001</div>
                             <div className='col-span-2 flex flex-col gap-4'>
-                                <div className='uppercase font-bold text-2xl tracking-wide'>
+                                <div className='uppercase font-bold text-2xl tracking-wide underline'>
                                    <a href="https://github.com/Hephzibah7/Finance_DashBoard_System"> Finance DashBoard System</a>
                                 </div>
                                 <div className='text-sm text-gray-400'>Developed a secure backend system for financial record management with authentication, role-based authorization, user
@@ -88,7 +88,7 @@ administration, and analytics dashboards. </div>
                         <div className=' grid grid-cols-4 w-full mt-10'>
                             <div className='col-span-1'>001</div>
                             <div className='col-span-2 flex flex-col gap-4'>
-                                <div className='uppercase font-bold text-2xl tracking-wide'>
+                                <div className='uppercase font-bold text-2xl tracking-wide underline'>
                                     <a href="https://github.com/Hephzibah7/Personal-Finance-Tracker">Personal Finance tracker</a>
                                 </div>
                                 <div className='text-sm text-gray-400'>Developed a tracker that helps users to track their monthly and yearly expenditures. </div>
