@@ -117,7 +117,8 @@ function HomeUI() {
                         <h1>Full Stack Developer</h1>
                       </div>
                       <div className='bg-white p-2 rounded '>
-                        <FontAwesomeIcon icon={faArrowUpRightFromSquare} className='text-black text-xl animate-bounce cursor-pointer' />
+                        <a href="https://www.linkedin.com/in/hephzibahranjan/"><FontAwesomeIcon icon={faArrowUpRightFromSquare} className='text-black text-xl animate-bounce cursor-pointer' />
+</a>
                       </div>
                     </div>
                   </div>
