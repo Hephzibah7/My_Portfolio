@@ -18,8 +18,8 @@ function ProjectUI() {
                         <div className='flex grid grid-cols-4 w-full mt-10'>
                             <div className='col-span-1'>001</div>
                             <div className='col-span-2 flex flex-col gap-4'>
-                                <div className='uppercase font-bold text-2xl tracking-wide'>
-                                    Online Art MarketPlace (ArtSpace)
+                                <div className='uppercase font-bold text-2xl tracking-wide underline'>
+                                    <a href="https://github.com/Hephzibah7/ArtSpace">Online Art MarketPlace (ArtSpace)</a>
                                 </div>
                                 <div className='text-sm text-gray-400'>ArtSpace is a scalable distributed e-commerce platform where:
 	<br></br>• Artists can upload and manage artwork
@@ -57,7 +57,7 @@ function ProjectUI() {
                             <div className='col-span-1'>001</div>
                             <div className='col-span-2 flex flex-col gap-4'>
                                 <div className='uppercase font-bold text-2xl tracking-wide'>
-                                    Finance DashBoard System
+                                   <a href="https://github.com/Hephzibah7/Finance_DashBoard_System"> Finance DashBoard System</a>
                                 </div>
                                 <div className='text-sm text-gray-400'>Developed a secure backend system for financial record management with authentication, role-based authorization, user
 administration, and analytics dashboards. </div>
@@ -89,7 +89,7 @@ administration, and analytics dashboards. </div>
                             <div className='col-span-1'>001</div>
                             <div className='col-span-2 flex flex-col gap-4'>
                                 <div className='uppercase font-bold text-2xl tracking-wide'>
-                                    Personal Finance tracker
+                                    <a href="https://github.com/Hephzibah7/Personal-Finance-Tracker">Personal Finance tracker</a>
                                 </div>
                                 <div className='text-sm text-gray-400'>Developed a tracker that helps users to track their monthly and yearly expenditures. </div>
                                 <div className='flex flex-wrap font-bold gap-4'>
