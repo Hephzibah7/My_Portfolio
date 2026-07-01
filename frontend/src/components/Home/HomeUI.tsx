@@ -55,13 +55,14 @@ function HomeUI() {
             </table>
           </div>
         </div>
-        <div className='z-30 absolute lg:w-full lg:h-screen flex justify-center '>
+        <div className='z-30 absolute overflow-hidden w-full h-screen flex justify-center '>
+         
             <motion.img
             initial={{ opacity: 0, y: 80 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: false }}
-            className=' w-[800px] h-[1000px] absolute bottom-0 object-cover' src="/me-Photoroom.png" />
+            className=' lg:w-[800px] lg:h-[1000px] md:w-[550px] w-[900px] h-[900px] absolute bottom-[-35px]  lg:bottom-0 object-cover' src="/me-Photoroom.png" />
           
         </div>
         <div className='z-20 absolute object-top w-full flex justify-center '>
@@ -70,54 +71,54 @@ function HomeUI() {
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className='object-cover tracking-wide text-orange-100/20  font-extrabold text-[190px] uppercase'>HEPHZIBAH</h1>
+            <h1 className='w-full tracking-wide text-orange-100/20  font-extrabold mt-10 lg:mt-0 text-[15vw] text-8xl md:text-[120px] lg:text-[190px] uppercase overflow-x-hidden'>HEPHZIBAH</h1>
 
           </motion.div>
         </div>
-        <div className='z-30 absolute w-full h-screen justify-center p-20 flex flex-col overflow-hidden'>
-          <div className='mt-10'>
-            <div className='flex justify-between mt-[150px] ml-20  text-white'>
+        <div className='z-30 absolute w-full h-screen lg:justify-center lg:p-20 flex flex-col overflow-hidden'>
+          <div className='lg:mt-10'>
+            <div className='flex justify-between ml-5 mt-[190px] md:mt-[250px] lg:ml-20  text-white'>
               <motion.div
                 initial={{ opacity: 0, x: -100 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8 }}
               >
-                <h1 className='w-1/3 text-sm uppercase tracking-wide font-bold'>Computer Science Engineering graduate  hands-on experience in backend and
+                <h1 className='text-xs/3 w-1/3 lg:text-sm uppercase tracking-wide lg:font-bold'>Computer Science Engineering graduate  hands-on experience in backend and
                   full-stack development through internships and personal projects. </h1>
               </motion.div>
 
             </div>
           </div>
           <div className='w-full'>
-            <div className='flex justify-between mt-[150px] ml-20 mr-20  text-white'>
+            <div className='flex p-2 lg:p-0 justify-between pt-[250px] md:pt-[280px] lg:pt-0 lg:mt-[100px]  lg:ml-20 lg:mr-20  text-white'>
               <motion.div
                 initial={{ opacity: 0, x: -100 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8 }}
-                className='mt-10 '>
+                className='lg:mt-10 '>
                 <h2 className=''>@2026</h2>
-                <h1 className='uppercase w-full text-9xl tracking-wide  font-extrabold '>hephzibah</h1>
+                <h1 className='uppercase w-full text-6xl lg:text-9xl tracking-wide overflow-hidden  font-extrabold '>hephzibah</h1>
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, x: 100 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8 }}
-                className='mt-20 z-50 tracking-wide'>
-                <div className='bg-black  grid grid-cols-3 p-2 rounded-md  text-gray-400 '>
+                className='lg:mt-20 z-50 tracking-wide'>
+                <div className='hidden  bg-black  lg:grid grid-cols-3 p-2 rounded-md  text-gray-400 '>
                   <div className='col-span-1 '>
-                    <img className='object-cover w-20 h-20  rounded' src="/pic8.jpeg" />
+                    <img className='object-cover  lg:w-20 lg:h-20  rounded' src="/pic8.jpeg" />
                   </div>
                   <div className='col-span-2'>
                     <div className='text-sm'>
                       <h1>Let's Talk</h1>
                     </div>
-                    <div className='flex justify between gap-8 mt-5'>
+                    <div className='flex justify between lg:gap-8 lg:mt-5'>
                       <div className='text-sm'>
-                        <h1 className='font-bold text-white'>Hephzibah</h1>
+                        <h1 className='font-bold text-white overflow-x-hidden'>Hephzibah</h1>
                         <h1>Full Stack Developer</h1>
                       </div>
                       <div className='bg-white p-2 rounded '>
-                        <a href="https://www.linkedin.com/in/hephzibahranjan/"><FontAwesomeIcon icon={faArrowUpRightFromSquare} className='text-black text-xl animate-bounce cursor-pointer' />
+                        <a href="https://www.linkedin.com/in/hephzibahranjan/"><FontAwesomeIcon icon={faArrowUpRightFromSquare} className='text-black lg:text-xl animate-bounce cursor-pointer' />
 </a>
                       </div>
                     </div>

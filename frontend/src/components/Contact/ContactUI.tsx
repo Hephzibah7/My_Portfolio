@@ -45,7 +45,7 @@ function ContactUI() {
                 </div>
             </div>
             <div className=''>
-                <div className='uppercase text-[150px] font-bold text-black'>Hephzibah</div>
+                <div className='uppercase  hidden lg:block lg:text-[150px] font-bold text-black overflow-x-hidden'>Hephzibah</div>
                 
             </div>
             
