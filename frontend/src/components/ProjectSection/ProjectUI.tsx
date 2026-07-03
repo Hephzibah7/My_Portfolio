@@ -3,19 +3,19 @@ import { motion } from "framer-motion";
 
 function ProjectUI() {
     return (
-        <div className="w-full h-contain bg-gray-200 pl-20 pr-20">
-            <div className='pl-20 w-full pr-20'>
+        <div className="w-full h-contain bg-gray-200 lg:pl-20 lg:pr-20">
+            <div className='p-5 lg:pl-20 w-full lg:pr-20'>
                 <motion.div
                     initial={{ opacity: 0, scale: 0.5 }}
                     whileInView={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.8 }}
-                    className='ml-30 mr-20 pl-20'>
-                    <h1 className='uppercase text-[50px] font-bold tracking-wide '>Projects</h1>
+                    className='p-10 lg:ml-30 lg:mr-20 lg:pl-20'>
+                    <h1 className='uppercase text-[10vh] lg:text-[50px] font-bold tracking-wide '>Projects</h1>
                 </motion.div>
                 <div className='flex flex-col gap-10 w-full '>
                     <div className=' mt-10 w-full '>
                         <hr className="border-t-3 border-red-500 " />
-                        <div className='flex grid grid-cols-4 w-full mt-10'>
+                        <div className='flex flex-col gap-[30px]  lg:grid lg:grid-cols-4 w-full mt-10'>
                             <div className='col-span-1'>001</div>
                             <div className='col-span-2 flex flex-col gap-4'>
                                 <div className='uppercase font-bold text-2xl tracking-wide underline'>
@@ -44,7 +44,7 @@ function ProjectUI() {
                                     whileInView={{ opacity: 1, scale: 1 }}
                                     transition={{ duration: 0.8 }}
                                 >
-                                    <img className=" rounded object-contain" src="/pic9.png" />
+                                    <img className="p-3  rounded object-contain" src="/pic9.png" />
 
                                 </motion.div>
                             </div>
@@ -53,7 +53,7 @@ function ProjectUI() {
 
                     <div className=' mt-10 w-full '>
                         <hr className="border-t-3 border-red-500 " />
-                        <div className=' grid grid-cols-4 w-full mt-10'>
+                        <div className=' lg:grid lg:grid-cols-4 w-full mt-10'>
                             <div className='col-span-1'>001</div>
                             <div className='col-span-2 flex flex-col gap-4'>
                                 <div className='uppercase font-bold text-2xl tracking-wide underline'>
@@ -85,7 +85,7 @@ administration, and analytics dashboards. </div>
 
                     <div className=' mt-10 w-full '>
                         <hr className="border-t-3 border-red-500 " />
-                        <div className=' grid grid-cols-4 w-full mt-10'>
+                        <div className=' lg:grid lg:grid-cols-4 w-full mt-10'>
                             <div className='col-span-1'>001</div>
                             <div className='col-span-2 flex flex-col gap-4'>
                                 <div className='uppercase font-bold text-2xl tracking-wide underline'>
