@@ -17,14 +17,14 @@ import {
 } from "react-icons/si";
 function EducationSectionUI() {
     return (
-        <div className='w-screen h-contain bg-gray-200 p-20 overflow-x-hidden '>
-            <div className='p-20 '>
-                <div className='ml-20 mr-20 uppercase   flex justify-between'>
+        <div className='w-screen h-contain bg-gray-200 xl:p-20 overflow-x-hidden '>
+            <div className='p-5 md:p-10 xl:p-20 '>
+                <div className='xl:ml-20 xl:mr-20 uppercase   flex justify-between'>
                     <motion.div
                         initial={{ opacity: 0, x: -100 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.8 }}
-                        className='font-bold text-[50px]'><h1>Problem-solver <br></br><span className='text-gray-600'>{"<Coder>"}</span></h1></motion.div>
+                        className='font-bold text-[5vh] xl:text-[50px]'><h1>Problem-solver <br></br><span className='text-gray-600'>{"<Coder>"}</span></h1></motion.div>
                     <motion.div
                         initial={{ opacity: 0, x: 100 }}
                         whileInView={{ opacity: 1, x: 0 }}
@@ -36,38 +36,38 @@ function EducationSectionUI() {
                     whileInView={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.6 }}
                     viewport={{ once: false }}
-                    className='grid grid-cols-3 gap-5 mt-10 '>
+                    className='flex flex-col lg:grid lg:grid-cols-3 gap-5 mt-10 '>
                     <div className='col-span-1 p-5 bg-black text-white rounded-lg'>
                         <h1 className='uppercase font-bold text-2xl tracking-wide'>Education</h1>
                         <div className='flex flex-col gap-10'>
 
-                            <div className='mt-[100px] text-gray-400 flex  justify-between gap-10'>
+                            <div className='mt-[100px] text-gray-400 flex gap-[20vh]   justify-between md:gap-10'>
 
                                 <div>
-                                    <div className='flex gap-5'>
+                                    <div className='flex gap-5 w-10 md:w-fit'>
                                         <div className='text-orange-600'>|</div>
                                         <h1 className='font-bold text-sm'>Bachelor of Technology<br></br>Computer Science and Engineering</h1>
                                     </div>
                                 </div>
-                                <div>
-                                    <h1 className='uppercase font-bold text-sm'>Xim University, Bhubaneswar, Odisha</h1>
+                                <div className="break-words">
+                                    <h1 className='uppercase font-bold text-sm text-wrap'>Xim University, Bhubaneswar, Odisha</h1>
                                     <h3 className='text-sm font-bold'>2021-2025</h3>
                                     <h4 className='text-sm'>8.88 CGPA</h4>
                                 </div>
                             </div>
-                            <div className=' text-gray-400 flex justify-between gap-[120px]'>
+                            <div className=' text-gray-400 flex justify-between gap-[15vh]  md:gap-[120px]'>
 
                                 <div className='flex gap-5'>
                                     <div className='text-orange-600'>|</div>
                                     <h1 className='font-bold text-sm'>12th Grade</h1>
                                 </div>
-                                <div>
+                                <div className="">
                                     <h1 className='uppercase font-bold text-sm'>Spicer Higher Secondary School, Pune, Maharashtra</h1>
                                     <h3 className='text-sm font-bold'>2020-2021</h3>
                                     <h4 className='text-sm'>93.5%</h4>
                                 </div>
                             </div>
-                            <div className=' text-gray-400 flex justify-between gap-[120px]'>
+                            <div className=' text-gray-400 flex justify-between gap-[15vh] md:gap-[120px] '>
 
                                 <div className='flex gap-5'>
                                     <div className='text-orange-600'>|</div>
