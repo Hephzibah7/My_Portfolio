@@ -97,7 +97,7 @@ function HomeUI() {
                 transition={{ duration: 0.8 }}
                 className='lg:mt-10 '>
                 <h2 className=''>@2026</h2>
-                <h1 className='uppercase w-full text-6xl lg:text-9xl tracking-wide overflow-hidden  font-extrabold '>hephzibah</h1>
+                <h1 className='uppercase w-full text-[15vw] md:text-8xl lg:text-7xl  xl:text-9xl tracking-wide overflow-hidden  font-extrabold '>hephzibah</h1>
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, x: 100 }}
