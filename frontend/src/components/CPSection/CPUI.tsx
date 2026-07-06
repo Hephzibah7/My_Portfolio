@@ -46,7 +46,7 @@ function CPUI() {
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.8 }}
                         className="row-span-2">
-                        <img className="rounded" src="/pic4.png" />
+                        <img className="rounded" src="/pic12.png" />
                     </motion.div>
                     <motion.div
                         initial={{ opacity: 0, x: -100 }}
