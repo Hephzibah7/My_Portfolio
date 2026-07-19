@@ -98,7 +98,7 @@ function EducationSectionUI() {
                                 <div className='text-sm'>
                                     <h1>Startup</h1>
                                     <h1>Bhubaneswar, Odisha</h1>
-                                    <h1 className='text-orange-600 text-xs'>April 2025-June 2025</h1>
+                                    <h1 className='text-orange-600 text-xs'>April 2024-June 2024</h1>
                                 </div>
                             </div>
                         </div>
